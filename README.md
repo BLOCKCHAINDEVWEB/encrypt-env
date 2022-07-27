@@ -16,4 +16,12 @@ Run the script for encrypt yours globals environnements in encrypted.js file.
 node index.js
 ```
 
-Copy the data of the encrypted.js file into your frontend in a file with a service-account.enc.js, a service-account-local.enc.js or another name file.  
+Copy the data of the encrypted.txt file into your frontend in a file with a service-account-enc.txt, a service-account-local-enc.txt or another name file.  
+
+# Deploy in Vercel
+
+Delete global variables env witch choice encrypted in the settings of yours fronts.  
+
+Create global variables env encryption key word in the settings of yours fronts.  
+
+Redeploy build for run with global variables env encrypted.  
