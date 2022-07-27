@@ -1,5 +1,6 @@
 require('dotenv').config({ path: './.env' });
 const fs = require('fs');
+const crypto = require('crypto-js');
 
 const { NODE_ENV, ENCRYPTION_KEY_WORDS, ENCRYPTION_KEY_WORDS_LOCAL } = process.env;
 
