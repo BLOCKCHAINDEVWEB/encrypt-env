@@ -25,3 +25,11 @@ Delete global variables env witch choice encrypted in the settings of yours fron
 Create global variables env encryption key word in the settings of yours fronts.  
 
 Redeploy build for run with global variables env encrypted.  
+
+# Deploy local
+
+Create global variables env encryption key word in the settings of yours fronts.  
+
+Create a encrypted-dev.json file and added the global variables env witch you want to encrypt.  
+
+Copy the data of the encrypted.txt file into your frontend in a file with a service-account-local-enc.txt or another name file.  
