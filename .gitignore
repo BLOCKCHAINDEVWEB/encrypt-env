@@ -1,5 +1,4 @@
 node_modules
 .env
 package-lock.json
-encrypted-dev.json
-encrypted-prod.json
+encrypted.json
